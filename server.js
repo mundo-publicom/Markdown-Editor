@@ -131,7 +131,8 @@ var server = app.listen(8000, function () {
     var host = server.address().address;
     var port = server.address().port;
 
-    console.log("Markdown Editor is openned at: http://%s:%s", host, port);
+    console.log("Markdown Editor is opened at: http://%s:%s", host, port);
+
 })
 
 var html_head = ' \

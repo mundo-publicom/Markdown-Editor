@@ -20,17 +20,13 @@
                     <!-- Brand and toggle get grouped for better mobile display -->
                     
                     <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" id="my-logo" href="https://github.com/daveying">
-                        <img id="my-logo-img-gray" src="logo/logo-transparent-35x35gray.png" alt="logo gray" />
-                        <img id="my-logo-img-white" style="display: none" src="logo/logo-transparent-35x35white.png" alt="logo white" />
-                    </a>
-                    <a class="navbar-brand" href="https://github.com/daveying/Markdown-Editor">Markdown-Editor</a>
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        
                     </div>
                     
                     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -44,24 +40,6 @@
                             <li><a href="#" id="smDropMenu">Small Font</a></li>
                             <li><a href="#" id="mdDropMenu">Medium Font</a></li>
                             <li><a href="#" id="lgDropMenu">Large Font</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Github style</a></li>
-                            <li><a href="#">Other style</a></li>
-                            <!--<li role="separator" class="divider"></li>
-                            <li><a href="#">One more separated link</a></li>-->
-                        </ul>
-                        </li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="http://ife2017.xpda.me">About</a></li>
-                        <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Other Apps <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Blog</a></li>
-                            <!--<li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>-->
-                            <!--<li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>-->
                         </ul>
                         </li>
                     </ul>
@@ -70,10 +48,9 @@
             </nav>
         </header>
         <main id="main-content">
-            <div id="editor"># Markdown Editor
-This markdown editor is developed by [Dave Da](https://github.com/daveying).
-
-You can find source code [here](https://github.com/daveying/Markdown-Editor).</div>
+            <div id="editor">
+                
+            </div>
             <div id="dragger"></div>
             <div id="preview">
                 <div id="markdown-div" class="markdown-body">
@@ -81,9 +58,7 @@ You can find source code [here](https://github.com/daveying/Markdown-Editor).</d
             </div>
         </main>
         <footer class="bg-4">
-            <div>
-                <em>Developed by Dave Da(<a href="https://github.com/daveying">https://github.com/daveying</a>). &copy 2017</em>
-            </div>
+            
         </footer>
         <form id="mdStr" name="mdStr" action="/parseMdStr" method="post" target="_blank" style="visibility: hidden">
             <textarea id="fakeMd" name="fakeMd" rows="3" cols="3">
@@ -255,8 +230,10 @@ You can find source code [here](https://github.com/daveying/Markdown-Editor).</d
                 }
             })();
         </script>
+
         <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
 
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
     </body>
 </html>
